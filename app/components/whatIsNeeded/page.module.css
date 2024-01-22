@@ -1,0 +1,11 @@
+.container {
+  padding: 40px;
+  border: grey solid 0.1px;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  margin: 40px 0;
+}
+
+.list {
+  margin-top: 10px;
+}

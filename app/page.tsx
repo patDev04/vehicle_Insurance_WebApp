@@ -7,6 +7,8 @@ import homeStyle from "./page.module.css";
 import Info from "./components/info/Info";
 import Stats from "./components/stats/Stats";
 import { FeaturePolicy } from "./components/policy/FeaturePolicy";
+import WhatIsNeeded from "./components/whatIsNeeded/WhatIsNeeded";
+import Faq from "./components/faq/Faq";
 
 export default function Home() {
   return (
@@ -30,6 +32,10 @@ export default function Home() {
       </div>
       <Info />
       <Stats />
+      <div className="container">
+        <WhatIsNeeded />
+        <Faq />
+      </div>
     </main>
   );
 }

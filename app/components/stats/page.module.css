@@ -1,6 +1,7 @@
 .container {
   background-color: var(--themeColor);
   padding: 20px;
+  color: white;
 }
 
 .wrapper {
@@ -9,16 +10,16 @@
   gap: 30px;
 }
 .heading {
-  color: white;
+  /* color: white; */
   font-weight: 500;
 }
 
 .counterGroup {
-  color: white;
+  /* color: white; */
 }
 
 .counter {
   font-size: 24px;
-  color: white;
+  /* color: white; */
   font-weight: 700;
 }

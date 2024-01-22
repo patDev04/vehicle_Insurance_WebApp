@@ -20,10 +20,7 @@ const Stats = () => {
                   start={0}
                   end={15}
                   duration={2.75}
-                  // separator=" "
                   decimals={0}
-                  // decimal=","
-                  // prefix="EUR "
                   suffix="+"
                   className={stats.counter}
                 />
@@ -34,8 +31,6 @@ const Stats = () => {
                   start={0}
                   end={1000}
                   duration={2}
-                  // separator=" "
-                  // decimals={1}
                   decimal=","
                   prefix="+"
                   suffix="+"
@@ -49,17 +44,23 @@ const Stats = () => {
                   start={0}
                   end={15000}
                   duration={2.75}
-                  // separator=" "
-                  // decimals={2}
                   decimal=","
-                  // prefix="EUR "
-                  // suffix=" left"
+                  suffix="+"
                   className={stats.counter}
                 />
                 <p>Satisfied Customers</p>
               </div>
             </div>
           )}
+          <br />
+          <p>
+            Short Term Insurance is our specialism. It is the only type of
+            insurance we offer and we are experts in the field. We are always
+            looking for ways to make our customer journey easier and more
+            efficient. Customer service and customer experience are of paramount
+            importance to us. We want to ensure you get the absolute best level
+            of cover at the very best prices.
+          </p>
         </div>
       </div>
     </ScrollTrigger>
